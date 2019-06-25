@@ -71,10 +71,6 @@ var budgetController = (function() {
             //return the new element
             return newItem;
         },
-        //TODO remove before final commit
-        testing: function() {
-            console.log(data);
-        },
 
         deleteItem: function(type, ID) {
             var idArray, index;
